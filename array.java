@@ -1,0 +1,12 @@
+public class array {
+    public static void main(String[]args){
+        String backpack[]={"Shotgun","Snipper","Rifle"};
+        String zombie[]={"mid range zombie","9","front zombie","close range zombie"};
+
+        System.out.println(backpack[0]);
+        System.out.println(zombie[1]);
+        System.out.println(backpack[2]);
+
+
+    }
+}
