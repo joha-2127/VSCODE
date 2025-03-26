@@ -1,4 +1,4 @@
-public class array2D {
+public class arr {
     public static void main(String[] args) {
         int[][] twodimensional = { { 1, 2, 3 },
                 { 5, 6, 7 },
