@@ -15,9 +15,10 @@ int main()
 */
 
 {
-    int first=0,second=1,fib,n;
-    scanf("%d",&n);
-    for(int i=0;i<=n;i++){
+    int first = 0, second = 1, fib, n;
+    scanf("%d", &n);
+    for (int i = 0; i <= n; i++)
+    {
         fib
     }
 }

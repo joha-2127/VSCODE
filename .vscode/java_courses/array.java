@@ -6,6 +6,9 @@ public class array {
         System.out.println(backpack[0]);
         System.out.println(zombie[1]);
         System.out.println(backpack[2]);
+        for(int i=0;i<127;i++){
+            System.out.println((char)i);
+        }
 
     }
 }
