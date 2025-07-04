@@ -2,9 +2,9 @@ import java.util.Scanner;
  class Main {
 
     public static int cal(int a,int b){
-        int sum=a+b;
+        int mul=a*b;
         
-        return sum;
+        return mul;
     }
     public static void main(String[] args) {
         
@@ -12,8 +12,8 @@ import java.util.Scanner;
 System.out.println("Enter the numbers:");
         int a=obj.nextInt();
         int b=obj.nextInt();
-        int sum= cal(a,b);
-        System.out.println(sum);
-        obj.close();
+        int mul= cal(a,b);
+        System.out.println(mul);
+        
     }
 }
