@@ -1,0 +1,16 @@
+.signup-btn {
+  font-family: "Raleway", sans-serif;
+  color: #4e47ff;
+  border: none;
+  padding: 36px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  color: #4e47ff;
+  font-weight: bold;
+}
