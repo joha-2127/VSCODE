@@ -13,10 +13,12 @@
   font-family: "Raleway", sans-serif;
   background-color: #4e47ff;
   color: #ffffff;
+  text-decoration: none;
   border: none;
-  padding: 10px 50px;
+  padding: 20px 40px;
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: 800;
+  margin-right: 150px;
   cursor: pointer;
 }
 .content {
@@ -25,12 +27,15 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+.signup-btn:hover {
+  background-color: #4e47ff;
+}
 
 .content h1 {
   font-size: 200px;
   font-weight: 700;
   color: #252432;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 .banner {
   height: 100vh;
@@ -40,18 +45,20 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 40px;
-  gap: 35px;
 }
 
 .logo {
   font-family: "Inter", sans-serif;
   font-size: 88px;
   color: #4e47ff;
-  font-weight: bold;
+  font-weight: 800;
+  margin-left: 175px;
+  margin-top: 8px;
 }
 .focus-btn {
   font-family: "Raleway", sans-serif;
   background-color: #4e47ff;
+  text-decoration: none;
   color: #ffffff;
   border: none;
   padding: 22px 74px;
@@ -59,4 +66,5 @@
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
+  margin-top: 100px;
 }
