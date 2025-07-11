@@ -6,23 +6,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
+  min-height: 100vh;
 }
 
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 80px; /* space between text and image */
-  max-width: 2000px;
-  padding: 40px;
+  /* max-width: 2000px; 200px */
+  max-width: none;
+  padding: 0 300px;
   width: 100%;
 }
 
 .text-section {
   color: #252432;
-  font-size: 68px;
-  flex: 1;
+  font-size: 100px;
 }
 
 .banner-title {
@@ -31,7 +32,7 @@ body {
 
 .banner-description {
   color: rgba(37, 36, 50, 0.5);
-  font-size: 32px;
+  font-size: 64px;
   margin-bottom: 40px;
 }
 
@@ -39,16 +40,20 @@ body {
   background-color: #4e47ff;
   border: none;
   color: #ffffff;
-  font-size: 20px;
-  border-radius: 8px;
+  font-size: 50px;
+  border-radius: 14px;
   padding: 24px 48px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.live-preview-button:hover {
+  background-color: #a4a4a4;
+  transform: translateY(-2px); /* slight lift on hover */
 }
 
 .image-section img {
   max-width: 100%;
-  width: 800px;
+  width: 1500px;
   height: auto;
-
   border-radius: 66px;
 }
