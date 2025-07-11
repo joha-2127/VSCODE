@@ -1,0 +1,291 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #252432;
+  font-size: 42px;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/* Productive Users Section */
+.productive-users-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 60px 0;
+  border-radius: 15px;
+  margin: 50px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productive-users-section .section-title {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-item {
+  text-align: center;
+  flex-basis: calc(33% - 40px); /* Adjust for spacing */
+  min-width: 200px; /* Ensure items don't get too small */
+}
+
+.stat-number {
+  font-family: "Inter", sans-serif;
+
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff; /* Purple color */
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-family: "Inter", sans-serif;
+
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 60px 0;
+  background-color: #f0f2f5; /* Match body background */
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.review-card .stars {
+  gap: 2px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.star-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.review-card h3 {
+  color: #4a4a68;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Allows paragraph to take available space */
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #757575;
+}
+
+.review-date {
+  color: #b3b3b3;
+  font-size: 0.9em;
+}
+/* Newsletter Section */
+.newsletter-section {
+  padding: 60px 0;
+  margin: 50px auto;
+  border-radius: 15px;
+
+  max-width: 1000px; /* Aligned with other sections */
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+  gap: 30px;
+  padding: 20px; /* Added internal padding for the flex container */
+}
+
+.newsletter-title {
+  font-family: "Raleway", sans-serif;
+  color: #000000; /* Darker color for emphasis */
+  font-size: 65px;
+  font-weight: bold;
+  flex-basis: 45%; /* Takes roughly half the width */
+  min-width: 300px; /* Ensures text doesn't get too small */
+  text-align: left;
+  margin: 0; /* Reset default margin */
+}
+
+.newsletter-form-container {
+  color: #d6dded;
+  flex-basis: 45%; /* Takes roughly half the width */
+  min-width: 300px; /* Ensures form doesn't get too small */
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: "Inter", sans-serif;
+
+  padding: 12px 15px;
+  border: 0px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #f9f9f9;
+  resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #6a5acd;
+  box-shadow: 0 0 0 3px rgba(106, 90, 205, 0.2);
+}
+
+.submit-button {
+  font-family: "Raleway", sans-serif;
+  background-color: #4e47ff; /* Purple */
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #5a4acb; /* Slightly darker purple on hover */
+}
+
+/* Footer Section */
+.main-footer {
+  background-color: #f0f2f5; /* Match body background */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* Spacing between elements */
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  color: #4e47ff; /* Purple color for the logo */
+  font-size: 100px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  color: #8987a1;
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 600px; /* Constrain width for readability */
+  margin: 0 auto; /* Center tagline */
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow nav items to wrap */
+  gap: 30px; /* Space between nav items */
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+  color: #6a5acd; /* Purple on hover */
+}
